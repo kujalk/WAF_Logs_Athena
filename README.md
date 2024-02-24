@@ -11,7 +11,7 @@ This Cloudformation template is used to create WAF for CloudFront and to analyze
 | AthenaTable             | The name of the Glue table for Athena.                   |
 
 ### Resources created
-| Resource                | Purpose                                               | Configuration                                  |
+| Resource Name           | Purpose                                               | Configuration                                  |
 |-------------------------|-------------------------------------------------------|------------------------------------------------|
 | AccessLogBucket         | S3 Bucket                                             | Store access logs securely.                    |
 | RuleGroup               | WAFv2 Rule Group                                      | Implement georestriction rules for web traffic. Configuration: Block requests from Japan (JP).       |
